@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body, html {
+    background-color: #212121;
+    text-align: justify;
+    color: white;
+    text-decoration: none;
+    background-color: #212121;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='448' height='448' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%239c5703' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23f28705'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  
+ a{
+   text-decoration: none;
+ }
+  
+  .separator {
+    height: 2px;
+    width: 10%;
+    box-shadow: none;
+    background-color: #ffffff;
+  }
+  /* header */
+  
+  .header {
+    background: #373737;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
+  
+  
+  .logo {
+    color: #ffffff;
+    width: 5em;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  .menu a:hover {
+    color: #F28705;
+    font-weight: bold;
+  }
+  /* bannièere */
+  
+  .inner-banner {
+    padding-top: 10em;
+    padding-bottom: 5%;
+  }
+  
+  .inner-banner h1,h2 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  
+  .inner-banner .btn-custom {
+    margin-top: 20px;
+    background: #22222200;
+    color: #ffffff;
+    font-weight: bold;
+    border-color: #ffffff;
+  }
+  .inner-banner a{
+    color: #ffffff;
+  }
+  
+  .inner-banner .btn-custom:hover {
+    background-color: #ad5f00;
+    color: #ffffff;
+    border-color: #ffffff00;
+  }
+  /* about */
+  
+  .about {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding : 3%;
+    color: #F28705;
+    background-color: #373737b7;
+    border-radius: 15px;
+    position: initial;
+    
+  
+  }
+  .about article h2 {
+    text-align: center;
+    color: #F28705;
+  
+  }
+  
+  .about article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .about article p {
+    color: #ffffff;
+  }
+  
+  .about a{
+    color: #F28705;
+    text-align: center;
+  }
+  
+  .about a:hover{
+    color: #ca7205;
+  }
+  
+  /* Presentation */
+  
+  .presentation{
+    background-color: #373737b7;
+    border-radius: 15px;
+  }
+  
+  .presentation img{
+    border-radius: 65%;
+    background-color: #222222;
+    width: 15em;
+  }
+  
+  .presentation p{
+    color: #ffffff;
+    text-align: justify;
+    padding: 4%;
+    border-left-color: #ffffff;
+  }
+  
+  /* footer */
+  
+  .footer {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: #2F343B;
+  }
+  
+  #contact {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer p {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .footer button{
+      display: block;
+      margin: auto;
+  }
+  
+   /* Expériences */
+  
+   .Experiences{
+    border-radius: 15px;
+    padding: 0.5%;
+    margin-bottom: 5em;
+    background-color: #373737b7; 
+  }
+
+  .Experiences-contenu{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    background-color: #373737b7;
+  }
+
+  .Experiences p{
+    color: #ffffff;
+    font-family: 'Montserrat';
+  }
+  
+  .Experiences h1{
+    color: #ffffff;
+    padding-top: 1em;
+  }
+
+  .Experiences h2,h3{
+    color: #F28705;
+  }
+  
+  /* Formations */
+  
+  .Formations{
+    padding: 0.5%;
+    margin-bottom: 5em;
+    border-radius: 15px;
+    background-color: #373737b7;
+    
+  }
+
+  .Formations-contenu{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.5%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    background-color: #373737b7;
+  }
+  
+  .Formations p{
+    color: #ffffff;
+    font-family: 'Montserrat';
+  }
+  
+  .Formations h1{
+    color: #ffffff;
+    padding-top: 1em;
+  }
+  
+  .Formations h2,h3{
+    color: #F28705;
+  }
+
+  h1{
+    font-weight: bold;
+  }
+  
+  .separator2{
+    height: 1%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #ffffff;
+  }
+  
+  .separator3{
+    height: 2px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 0px;
+    background-color:#ffffff;
+  }
+  
+  
+  /* compétences */
+  
+  .competences{
+    text-align: center;
+
+  }
+  
+ .webdev{
+   width: 100%;
+   padding-left: 0px;
+ }
+
+  .competences img{
+    margin-bottom: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+
+
+  /* Hobbies */
+  
+  .Hobbies{
+
+    text-align: center;
+
+  }
+  
+
+
+  .Hobbies img{
+  margin-bottom: 1em;
+  }
+
+  .bloc-skills{
+    background-color: #373737b7;
+    border-radius: 15px;
+    padding-top: 2em;
+    margin-bottom: 5em;
+  }
+
+  .separator4{
+    height: 0.1em;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 2em;
+    background-color: #ffffff;
+  }
